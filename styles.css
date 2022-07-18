@@ -1,5 +1,10 @@
 * {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
 }
 
 .container {
@@ -10,9 +15,30 @@
     display: flex;
 }
 
-/* Navigation bar */
-nav {
+nav, header {
     background-color: #1f2937;
+    color: #f9faf8;
+}
+
+/* Buttons */
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 24px;
+}
+
+button:hover {
+    background-color: #2762c2;
+}
+
+/* Navigation bar */
+
+nav {
+    position: sticky;
+    top: 0;
 }
 
 nav .container {
@@ -21,7 +47,7 @@ nav .container {
 }
 
 nav a {
-    color: #fff;
+    color: #f9faf8;
     text-decoration: none;
 }
 
@@ -34,4 +60,29 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 16px;
+}
+
+/* Header */
+
+header .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+header p {
+    margin: 8px 0 12px 0;
+    max-width: 400px;
+}
+
+.hero-img {
+    max-width: 425px;
+    margin-left: 16px;
 }
