@@ -87,7 +87,7 @@ header p {
     margin-left: 16px;
 }
 
-/* Section 1 - About Mars */
+/* Section 1 - The Mission */
 
 .section-1 {
     flex-direction: column;
@@ -103,6 +103,7 @@ h2 {
 
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 36px;
 }
@@ -114,4 +115,29 @@ h2 {
 
 .icon img {
     border-radius: 12px;
+}
+
+/* Section 2 - Quote About Mars */
+
+.grey {
+    background-color: #e5e7eb;
+    padding: 60px 0;
+}
+
+.section-2 {
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quotee {
+    align-self: flex-end;
+    margin-top: 16px;
 }
