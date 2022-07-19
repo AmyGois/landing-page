@@ -16,7 +16,7 @@ body {
     display: flex;
 }
 
-nav, header {
+nav, header, footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -162,4 +162,10 @@ h2 {
 .btn-border {
     border-style: solid;
     border-color: #f9faf8;
+}
+
+/* Footer */
+
+footer .container {
+    justify-content: center;
 }
