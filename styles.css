@@ -7,6 +7,15 @@ body {
     margin: 0;
 }
 
+section {
+    scroll-margin-top: 55px;
+}
+
+nav, header, footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
 .container {
     max-width: 900px;
     box-sizing: border-box;
@@ -14,11 +23,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
-}
-
-nav, header, footer {
-    background-color: #1f2937;
-    color: #f9faf8;
 }
 
 /* Buttons */
