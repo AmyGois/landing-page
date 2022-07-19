@@ -9,6 +9,7 @@ body {
 
 .container {
     max-width: 900px;
+    box-sizing: border-box;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -140,4 +141,25 @@ h2 {
 .quotee {
     align-self: flex-end;
     margin-top: 16px;
+}
+
+/* Section 3 - Join Us*/
+
+.section-3 {
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 60px auto;
+    border-radius: 6px;
+    padding: 24px 0;
+}
+
+.section-3 p {
+    color: #f9faf8;
+    margin: 6px 0;
+}
+
+.btn-border {
+    border-style: solid;
+    border-color: #f9faf8;
 }
