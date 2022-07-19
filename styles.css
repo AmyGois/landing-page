@@ -12,7 +12,7 @@ section {
 }
 
 nav, header, footer {
-    background-color: #1f2937;
+    background-color: #00273c;
     color: #f9faf8;
 }
 
@@ -28,7 +28,7 @@ nav, header, footer {
 /* Buttons */
 
 button {
-    background-color: #3882f6;
+    background-color: #1580ba;
     color: #f9faf8;
     border: none;
     border-radius: 6px;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-color: #2762c2;
+    background-color: #0d5378;
 }
 
 /* Navigation bar */
@@ -101,7 +101,7 @@ header p {
 }
 
 h2 {
-    color: #1f2937;
+    color: #00273c;
     font-size: 36px;
     font-weight: bolder;
 }
@@ -125,7 +125,7 @@ h2 {
 /* Section 2 - Quote About Mars */
 
 .grey {
-    background-color: #e5e7eb;
+    background-color: #f2e9cc;
     padding: 60px 0;
 }
 
@@ -152,7 +152,7 @@ h2 {
 .section-3 {
     justify-content: space-around;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #1580ba;
     margin: 60px auto;
     border-radius: 6px;
     padding: 24px 0;
